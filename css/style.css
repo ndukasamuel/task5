@@ -25,14 +25,7 @@
 .hero-text{
     padding: 0 5%;
 }
-.navbar-brand{
-    font-weight: bolder;
-    font-size: 500;
-}
-.card{
-    box-shadow: 0px 2px 15px rgba(var(--color-black-rgb), 0.1);
-    padding: 4px;
-}
+
 .footer-content{
     background: rgba(19, 11, 128, 0.692);
     color: white;
@@ -46,15 +39,56 @@
     height:20vh;
 }
 
-.member{
-    width: 100%;
-}
-.member-image{
+.member-image1, .member-image2, .member-image3, .member-image4  {
     width: 45%;
     background: url(../img/member-pix\ 1.jpg)no-repeat;
     background-size: cover;
     background-position: center;
     height: 300px;
+}
+.member-image2{
+    background: url(../img/member-pix\ 2.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+.member-image3{
+    background: url(../img/member-pix\ 3.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+.member-image4{
+    background: url(../img/member-pix\ 4.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+@media(max-width: 789px){
+    .tm-bg .d-flex{
+        flex-direction: column;
+        width: 100%;
+    }
+        .member-image1,
+        .member-image2,
+        .member-image3,
+        .member-image4{
+            width: 100%;
+            justify-content: center;
+    }
+    .member .member-text {
+        width: 100%;
+        padding: none;
+        padding-left: 0px;
+    }
+
+} 
+.member-text{
+    padding-left: 43px;
+}
+.tm-bg{
+    background-color: aliceblue;
+    border-radius: 31px;
 }
 #team .col-each2 .member-image {
     background: url(../img/member-pix\ 2.jpg)no-repeat;
@@ -70,34 +104,20 @@
     background: whitesmoke;
     padding: 40px;
 }
-#team .col-each3 .member-image{
-    background: url(../img/member-pix\ 3.jpg)no-repeat;
-    width: 45%;
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-}
-#team .col-each4 .member-image {
-    background: url(../img/member-pix\ 4.jpg)no-repeat;
-    width: 45%;
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-}
 
-.btn button:not(:disabled) {
-    background: blue;
-    border: none;
-    color: white;
-    padding: 10px 35px;
-    border-radius: 10px;
-}
 .footer-links ul li a{
     color: white;
 }
+
 @media(max-width: 426px){
-    .row{
+    .row {
+        width: 100%;
+        flex-direction: column;
+    .member{
         width: 100%;
         flex-direction: column;
     }
 }
+
+
+
