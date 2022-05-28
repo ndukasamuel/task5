@@ -18,12 +18,10 @@
         background-size: cover;
         font-family: 'Raleway', sans-serif;
 }
-#hero h2{
+#hero h2, #hero h5{
     color: white;
 }
-#hero h5 {
-    color: white;
-}
+
 .hero-text{
     padding: 0 5%;
 }
@@ -87,7 +85,6 @@
     height: 300px;
 }
 
-
 .btn button:not(:disabled) {
     background: blue;
     border: none;
@@ -97,4 +94,10 @@
 }
 .footer-links ul li a{
     color: white;
+}
+@media(max-width: 426px){
+    .row{
+        width: 100%;
+        flex-direction: column;
+    }
 }
