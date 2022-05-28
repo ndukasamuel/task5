@@ -83,13 +83,14 @@
     }
 
 } 
-.member-text{
-    padding-left: 43px;
-}
 .tm-bg{
     background-color: aliceblue;
     border-radius: 31px;
 }
+/* .member-text{
+    padding-left: 43px;
+} */
+
 #team .col-each2 .member-image {
     background: url(../img/member-pix\ 2.jpg)no-repeat;
     width: 45%;
@@ -105,9 +106,6 @@
     padding: 40px;
 }
 
-.footer-links ul li a{
-    color: white;
-}
 
 @media(max-width: 426px){
     .row {
