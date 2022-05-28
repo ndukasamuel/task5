@@ -18,21 +18,12 @@
         background-size: cover;
         font-family: 'Raleway', sans-serif;
 }
-#hero h2, #hero h5{
-    color: white;
-}
-
-.hero-text{
-    padding: 0 5%;
-}
 
 .footer-content{
     background: rgba(19, 11, 128, 0.692);
-    color: white;
 }
 .footer-legal{
     background: rgb(17, 68, 134);
-    color: white;
 }
 #hero2{
     background: rgb(67, 67, 102, 0.2);
@@ -87,25 +78,9 @@
     background-color: aliceblue;
     border-radius: 31px;
 }
-/* .member-text{
-    padding-left: 43px;
-} */
-
-#team .col-each2 .member-image {
-    background: url(../img/member-pix\ 2.jpg)no-repeat;
-    width: 45%;
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-}
 .member-text{
     width: 55%;
 }
-#team .bg-colour{
-    background: whitesmoke;
-    padding: 40px;
-}
-
 
 @media(max-width: 426px){
     .row {
