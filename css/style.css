@@ -19,12 +19,6 @@
         font-family: 'Raleway', sans-serif;
 }
 
-.footer-content{
-    background: rgba(19, 11, 128, 0.692);
-}
-.footer-legal{
-    background: rgb(17, 68, 134);
-}
 #hero2{
     background: rgb(67, 67, 102, 0.2);
     height:20vh;
@@ -82,15 +76,6 @@
     width: 55%;
 }
 
-@media(max-width: 426px){
-    .row {
-        width: 100%;
-        flex-direction: column;
-    .member{
-        width: 100%;
-        flex-direction: column;
-    }
-}
 
 
 
