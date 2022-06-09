@@ -66,6 +66,9 @@
         padding: none;
         padding-left: 0px;
     }
+    .about .d-flex{
+        flex-direction: column;
+    }
 
 } 
 .tm-bg{
@@ -75,6 +78,7 @@
 .member-text{
     width: 55%;
 }
+
 
 
 
